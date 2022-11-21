@@ -1,3 +1,9 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+
+function changebackground() {
+  document.getElementById("mouseover").style.color = "white";
+}
+
+function backtonormal() {
+  document.getElementById("mouseover").style.color = "black";
+}
+

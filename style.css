@@ -1,0 +1,63 @@
+body {
+    background-color:black ;
+    color:red;
+    background-image: url("./images/coding.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+nav li{
+    display: inline-block;
+    
+}
+nav ul {
+    text-align: center;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+}
+ul li a:hover{
+    color: #0000ff;
+    background-color:white;
+    border-radius: 2px;
+    
+}
+nav {
+    background-color: #cc5500;
+    height: 50px;
+    padding: 15px;
+    width: 100%;
+}
+nav ul li{
+    height:50px;
+    padding: 15px;px;
+}
+.code{
+    text-align: centre;
+}
+.code h1{
+    font-size: 40px;
+}
+.code{
+    margin-left: 7%;
+    margin-top: 6%;
+} 
+.ABOUT{
+    color:white;
+    padding: 450px 0;
+    padding-bottom: 15px;
+    
+} 
+.projects{
+    color:#fff;
+    padding: 80px 0;
+    padding-top: 15px;
+}
+.contacts ul li{
+    text-decoration: none;
+}
+
+
+
+
