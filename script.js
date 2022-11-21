@@ -1,9 +1,9 @@
-
-function changebackground() {
-  document.getElementById("mouseover").style.color = "white";
+function handlemouseoverevent(h){
+  h.style.color="yellow"
+  h.style.background="white"
 }
-
-function backtonormal() {
-  document.getElementById("mouseover").style.color = "black";
+function handlemouseoutevent(h) {
+  h.style.color="red"
+  h.style.background="blue"
 }
 
